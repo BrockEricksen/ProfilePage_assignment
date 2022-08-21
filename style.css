@@ -1,0 +1,190 @@
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+#banner{
+    background-color: #17a2b8;
+    height: 130px;
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+#pfp{
+    border-radius: 50%;
+    margin-top: 10%;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    margin-left: 30px;
+}
+
+#edit_profile{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+#edit_profile > img{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+#seattle_and_pic{
+    display: flex;
+    height: 20px;
+    width: 20px;
+    margin-left: 30px;
+}
+
+#edu_header{
+    color: white;
+    background-color: #333333;
+    height: 40px;
+    font-size: larger;
+    margin-bottom: 0px;
+    padding-left: 30px;
+}
+
+.header{
+    background-color: black;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 5px;
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+}
+
+.header > h1, h3{
+    margin: 20px;
+    align-self: center;
+}
+
+.sign_out{
+    align-self: center;
+    margin-left: 300px;
+    height: 30px;
+    background-color: lightskyblue;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.container_left{
+    width: 40%;
+    margin: 10px;
+    padding: 5px;
+    height: 600px;
+}
+
+.container_right{
+    display: inline-block;
+    width: 230px;
+    margin: 10px;
+    padding: 5px;
+    height: 500px;
+}
+
+.person_info{
+    border: 3px grey solid;
+    padding-left: 10px;
+    margin-bottom: 4%;
+    padding-left: 0px;
+}
+
+.person_info > p, h1{
+    margin-left: 30px;
+}
+
+.bottom_text{
+    border-left: 3px grey solid;
+    border-right: 3px grey solid;
+    border-bottom: 3px grey solid;
+}
+
+.bottom_text > p{
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
+.friend_request{
+    margin-bottom: 50px;
+}
+
+#con_req_banner{
+    color: white;
+    background-color: #333333;
+    height: 40px;
+    width: 206px;
+    font-size: larger;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+#your_con_banner{
+    color: white;
+    background-color: #333333;
+    height: 40px;
+    width: 206px;
+    font-size: larger;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.con_req{
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 150px;
+    font-size: large;
+    border-left: 3px grey solid;
+    border-right: 3px grey solid;
+    border-bottom: 3px grey solid;
+}
+
+.con_req > img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
+
+.your_con{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 270px;
+    font-size: large;
+    border-left: 3px grey solid;
+    border-right: 3px grey solid;
+    border-bottom: 3px grey solid;
+}
+
+.your_con > p{
+    margin-right: 30px;
+}
+
+.your_con > img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
+
+#action{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+}
+
